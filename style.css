@@ -44,7 +44,7 @@ main {
 
 .baanr-buttom {
     color: white;
-    background-color: red;
+    background-color: rgb(255, 154, 2);
     padding: 10px 30px;
     border-radius: 5px;
     text-decoration: none;
@@ -108,7 +108,7 @@ main {
     width: 150px;
     height: 17px;
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(255, 154, 2);
     padding: 15px 20px;
     border-radius: 5px;
 }
@@ -131,7 +131,7 @@ main {
 .transfer1 {
     border: 2px solid gainsboro;
     width: 300px;
-    height: 300px;
+    height: 340px;
     padding: 10px 10px;
     align-items: center;
     margin: 15px 15px;
@@ -181,7 +181,7 @@ main {
 
 .view {
     color: white;
-    background-color: red;
+    background-color: rgb(255, 154, 2);
     padding: 10px 25px;
     border-radius: 5px;
     text-decoration: none;
@@ -198,6 +198,7 @@ main {
 
     background-color: black;
     padding: 40px 40px;
+    margin-top: 40px;
 
 }
 

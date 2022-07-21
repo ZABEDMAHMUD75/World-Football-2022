@@ -49,7 +49,7 @@ main {
 
 .baanr-buttom {
     color: white;
-    background-color: red;
+    background-color: rgb(255, 154, 2);
     padding: 10px 30px;
     border-radius: 5px;
     text-decoration: none;
@@ -87,12 +87,12 @@ main {
 }
 
 .Upcoming-Match {
-    color: black;
+    color: white;
     text-align: center;
     width: 150px;
     height: 17px;
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(255, 154, 2);
     padding: 15px 20px;
     border-radius: 5px;
 }
@@ -163,7 +163,7 @@ main {
 
 .view {
     color: white;
-    background-color: red;
+    background-color: rgb(255, 154, 2);
     padding: 10px 25px;
     border-radius: 5px;
     text-decoration: none;
@@ -180,7 +180,8 @@ main {
 .world-cup {
 
     background-color: black;
-    padding-top: 70px;
+    padding-top: 50px;
+    margin-top: 40px;
 }
 
 .footer-header {
