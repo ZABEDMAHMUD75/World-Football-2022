@@ -1,0 +1,358 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*------------------ 
+   banar sector  
+---------------------*/
+.bannar {
+    width: 80%;
+    /* height: 500px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    margin: auto;
+    border-radius: 30px;
+
+}
+
+.banar-imag {
+    width: 500px;
+    height: 400px;
+    padding-top: 30px;
+}
+
+
+
+
+
+.banar-heding {
+    color: white;
+    font-size: 50px;
+}
+
+.banar-title {
+    padding: 50px 40px;
+    padding-left: 90px;
+}
+
+.banar-bonona {
+    color: white;
+}
+
+.baanr-buttom {
+    color: white;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+
+
+}
+
+
+
+/*----------------------------------- 
+    Upcoming Match,All Group,Blog 
+-----------------------------------------*/
+
+
+
+.transfer-data {
+
+    display: flex;
+    padding-top: 90px;
+
+}
+
+
+
+.all-match-shows {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px 20px;
+
+}
+
+.Upcoming-Match {
+    color: black;
+    text-align: center;
+    width: 150px;
+    height: 17px;
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.All-Group {
+    color: black;
+    width: 150px;
+    height: 17px;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.Blog {
+    color: black;
+    width: 150px;
+    height: 17px;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 20px;
+    ;
+    border-radius: 5px;
+}
+
+/*-------------------- 
+   transfer-player 
+-----------------------*/
+
+.transfer-player {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(255, 253, 253);
+    margin: 0px 20px;
+
+
+}
+
+.flags-item {
+    display: flex;
+
+}
+
+.country-vs {
+    size: 14px;
+}
+
+.transfer-img {
+    width: 70px;
+    height: 70px;
+}
+
+.transfer-live-leka {
+    border: 10px;
+    padding-right: 40px;
+}
+
+.transfer1 {
+    border: 2px solid gainsboro;
+    width: 250px;
+    height: 200px;
+    padding: 10px 10px;
+    align-items: center;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+.view {
+    color: white;
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px 20px;
+    display: none;
+}
+
+
+
+
+/*-------------- 
+   footer  
+---------------*/
+.world-cup {
+
+    background-color: black;
+    padding-top: 70px;
+}
+
+.footer-header {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-hr {
+    width: 80%;
+    height: -60px;
+
+    color: rgb(173, 171, 171);
+    padding: 0px 40px;
+
+}
+
+.footer-items {
+    text-align: center;
+    size: 10px;
+    color: rgb(174, 171, 171);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    size: 10px;
+    padding: 40px 400px;
+    margin: 0px;
+
+
+
+}
+
+.icon {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: -10px 600px;
+    padding: 10px 100px;
+    justify-items: center;
+
+}
+
+
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+
+    .bannar {
+        width: 100%;
+        /* height: 500px; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: black;
+
+    }
+
+    .banar-imag {
+        width: 250px;
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    .transfer-player {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 20px;
+    }
+
+    .transfer-data {
+        display: flex;
+        padding-top: 90px;
+        flex-direction: column;
+    }
+
+    .all-match-shows {
+        margin-bottom: 40px;
+    }
+
+    .footer-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 40px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .footer-items h6 {
+        margin: 10px 0px;
+    }
+
+    .icon {
+        color: #fff;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        margin: 0px 20px;
+        display: block;
+    }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+    .transfer-data {
+        display: flex;
+        padding-top: 90px;
+        flex-direction: column;
+    }
+
+    .transfer-player {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-match-shows {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #fff;
+        margin: 10px;
+        height: 40px;
+    }
+
+    .Upcoming-Match {
+        border: 1px solid red;
+        border-radius: 5px;
+
+    }
+
+    .All-Group {
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        margin: 0px 8px;
+    }
+
+    .Blog {
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        margin: 0px 8px;
+    }
+
+    .view {
+        color: white;
+        background-color: red;
+        padding: 10px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 20px 20px;
+        display: block;
+
+    }
+
+    .footer-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 40px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .footer-items h6 {
+        margin: 20px 0px;
+    }
+
+    .icon {
+        color: #fff;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        margin: 0px 20px;
+        display: block;
+    }
+
+}
